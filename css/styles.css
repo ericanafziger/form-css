@@ -1,0 +1,30 @@
+form {
+  position: relative;
+  background: #24313C;
+  color: white;
+}
+.top-buttons {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+#button1 {
+  background: #1AB188;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
+}
+#button2 {
+  background: rgb(93, 88, 90);
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
+  opacity: 0.5;
+  transition: opacity 400ms;
+}
+
+#button2:hover, #button2:active, #button2:focus {
+  opacity: 1;
+}
