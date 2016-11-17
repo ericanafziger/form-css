@@ -14,7 +14,7 @@ body, html {
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
-    /*-ms-content-zooming: none;*/
+    -ms-content-zooming: none;
     position:absolute;
     width:100%;
     height:100%;
@@ -29,15 +29,23 @@ form {
   background: rgba(37, 50, 61, 0.8);
   color: white;
   width: 400px;
-  height: 500px;
-  top: 15%;
+  height: 400px;
+  top: 20%;
+}
+button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: white;
   font-family: 'Titillium Web', sans-serif;
+  font-size: 1em;
 }
 #top-buttons {
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 10%;
   transform: translate(-50%,0);
+  width: 90%;
 }
 #button1 {
   background: #1AB188;
@@ -45,15 +53,28 @@ form {
   border: none;
   padding: 10px;
   color: white;
+  margin-left: 4%;
 }
 #button2 {
   background: rgb(93, 88, 90);
-  outline: none;
-  border: none;
-  padding: 10px;
-  color: white;
   opacity: 0.7;
   transition: opacity 600ms;
+  margin-right: 4%;
+}
+
+#top-buttons button {
+  width: 46%;
+  float: left;
+}
+
+#button3 {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%,0);
+  background: #1AB188;
+  display: block;
+  width: 40%;
 }
 
 #button2:hover, #button2:active, #button2:focus {
@@ -63,11 +84,22 @@ form {
 #blanks {
   position: absolute;
   left: 50%;
+  width: 90%;
   transform: translate(-50%, 0);
   top: 25%;
 }
 
 input {
-  height: 2em;
+  height: 3em;
+  width: 92%;
+  margin-bottom: 6%;
+  margin-left: 4%;
+  margin-right: 4%;
   font-family: 'Raleway', sans-serif;
+}
+.names {
+  float: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  width: 42%;
 }
