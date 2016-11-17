@@ -96,10 +96,27 @@ input {
   margin-left: 4%;
   margin-right: 4%;
   font-family: 'Raleway', sans-serif;
+  background-color: rgb(214, 214, 214);
+  outline: none;
+  border: none;
 }
 .names {
   float: left;
   margin-left: 4%;
   margin-right: 4%;
   width: 42%;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
 }
